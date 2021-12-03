@@ -14,7 +14,8 @@ if __name__ == '__main__':
                  for k in range(z+1)
                  if i <= x and j <= y and k <= z and i + j + k != n
                  ]
-
+	
+	print("this is just a copy of list comprehension")
     print(list_comp)
 
 ## I had problem at first - because range actually doesn't take the digit's itself. I had to add 1 to input data
